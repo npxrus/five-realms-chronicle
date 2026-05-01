@@ -1,10 +1,32 @@
 {
   "name": "backend",
   "version": "1.0.0",
+  "description": "Five Realms Chronicle Backend",
+  "author": "",
+  "private": true,
+  "license": "MIT",
   "scripts": {
-    "dev": "echo 'Backend dev placeholder'",
-    "build": "echo 'Backend build placeholder'",
-    "lint": "echo 'Backend lint placeholder'",
-    "test": "echo 'Backend test placeholder'"
+    "dev": "nest start --watch",
+    "build": "nest build",
+    "start": "nest start",
+    "start:prod": "node dist/main"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.1.19",
+    "@nestjs/core": "^11.1.19",
+    "@nestjs/platform-express": "^11.1.19",
+    "@prisma/client": "^6.19.3",
+    "prisma": "^6.19.3",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^11.0.21",
+    "@nestjs/schematics": "^11.1.0",
+    "@nestjs/testing": "^11.1.19",
+    "@types/node": "^25.6.0",
+    "dotenv-cli": "^11.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
   }
 }
