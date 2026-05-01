@@ -1,0 +1,20 @@
+{
+  "name": "five-realms-chronicle",
+  "version": "1.0.0",
+  "description": "Full-stack app based on NestJS, Vue 3, PostgreSQL",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test"
+  },
+  "devDependencies": {
+    "turbo": "^2.9.7"
+  },
+  "packageManager": "npm@10.9.7"
+}

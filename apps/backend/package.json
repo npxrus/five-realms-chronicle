@@ -1,0 +1,10 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "echo 'Backend dev placeholder'",
+    "build": "echo 'Backend build placeholder'",
+    "lint": "echo 'Backend lint placeholder'",
+    "test": "echo 'Backend test placeholder'"
+  }
+}

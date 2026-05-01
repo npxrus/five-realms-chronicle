@@ -1,0 +1,50 @@
+# === ЗАВИСИМОСТИ ===
+node_modules/
+.pnp
+.pnp.js
+package-lock.json
+
+# === СБОРКА И КЭШИ ===
+dist/
+.next/
+.nuxt/
+.output/
+.turbo/
+*.tsbuildinfo
+vite.config.ts.timestamp-*
+
+# === ОКРУЖЕНИЕ И СЕКРЕТЫ ===
+.env
+.env.*
+!.env.example
+*.local
+
+# === IDE & РЕДАКТОРЫ ===
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# === ОС & ВРЕМЕННЫЕ ФАЙЛЫ (macOS) ===
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === ЛОГИ И ТЕСТЫ ===
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+coverage/
+.nyc_output/
+
+# === PRISMA ===
+prisma/studio/
+# Примечание: prisma/migrations/ НЕ игнорируем. Миграции должны версионироваться,
+# чтобы команда видела историю изменений схемы БД.
